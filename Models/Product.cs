@@ -6,6 +6,7 @@ using System.Drawing;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Drawing.Imaging;
 
 namespace MagazinImbracaminte.Models
 {
@@ -18,11 +19,13 @@ namespace MagazinImbracaminte.Models
         public bool InStock { get; set; }
         [DataType(DataType.Currency)]
         public float Price { get; set; }
-        public Uri Imagine { get; set; }
+        public  Image Image { get; set; }
         [Range(0, 100, ErrorMessage = "Nu exista mai mult de 100 de produse in stock!")]
         public int QuantityInStock { set; get; }
         [Range(0, 10, ErrorMessage = "Nu puteti introduce mai mult de 10 produse in cos!")]
         public int Quantities { get; set; }
+
+        public ProductDetails ProductDetails { get; set; }
 
         //relatie one to many : Product <-> ProductCart
         public ProductCart ProductCart { get; set; }
