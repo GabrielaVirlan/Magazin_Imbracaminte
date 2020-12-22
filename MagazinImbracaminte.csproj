@@ -5,6 +5,96 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\get-shit-done-master\.gitignore" />
+    <None Include="wwwroot\get-shit-done-master\assets\css\demo.css" />
+    <None Include="wwwroot\get-shit-done-master\assets\css\gsdk.css" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\apple-icon.png" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\bg.jpg" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\blurred-black-cover.jpeg" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\carousel_blue.png" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\carousel_green.png" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\carousel_orange.png" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\carousel_red.png" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\cover_4.jpg" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\cover_4_blur.jpg" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\dulau.jpg" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\favicon.png" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\mask.png" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\mockup.png" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\new_logo.png" />
+    <None Include="wwwroot\get-shit-done-master\assets\img\tim_80x80.png" />
+    <None Include="wwwroot\get-shit-done-master\assets\js\custom.js" />
+    <None Include="wwwroot\get-shit-done-master\assets\js\get-shit-done.js" />
+    <None Include="wwwroot\get-shit-done-master\assets\js\gsdk-bootstrapswitch.js" />
+    <None Include="wwwroot\get-shit-done-master\assets\js\gsdk-checkbox.js" />
+    <None Include="wwwroot\get-shit-done-master\assets\js\gsdk-radio.js" />
+    <None Include="wwwroot\get-shit-done-master\assets\js\jquery-ui-1.10.4.custom.min.js" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\mixins\_buttons.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\mixins\_inputs.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\mixins\_labels.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\mixins\_navbars.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\mixins\_tabs.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\mixins\_transparency.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\mixins\_vendor-prefixes.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_alerts.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_buttons.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_carousel.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_checkbox-radio-switch.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_collapse.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_dropdown.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_inputs.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_labels-and-progress-bars.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_misc.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_mixins.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_modal.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_navbars.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_responsive.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_sliders.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_tabs-navs-pagination.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_tooltips.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_typography.scss" />
+    <None Include="wwwroot\get-shit-done-master\assets\sass\gsdk\_variables.scss" />
+    <None Include="wwwroot\css\bootstrap-theme.css" />
+    <None Include="wwwroot\css\bootstrap-theme.min.css" />
+    <None Include="wwwroot\css\bootstrap.css" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\font-awesome.css" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\js\bootstrap.js" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\get-shit-done-master\components.html" />
+    <None Include="wwwroot\get-shit-done-master\index.html" />
+    <None Include="wwwroot\get-shit-done-master\jquery\jquery-1.10.2.js" />
+    <None Include="wwwroot\get-shit-done-master\jquery\jquery-ui.custom.min.js" />
+    <None Include="wwwroot\get-shit-done-master\LICENSE.md" />
+    <None Include="wwwroot\get-shit-done-master\navbar-transparent.html" />
+    <None Include="wwwroot\get-shit-done-master\notification.html" />
+    <None Include="wwwroot\get-shit-done-master\README.md" />
+    <None Include="wwwroot\get-shit-done-master\template.html" />
+    <None Include="wwwroot\get-shit-done-master\tutorial.html" />
+    <None Include="wwwroot\Photos\Bluza_Crem.jpg" />
+    <None Include="wwwroot\Photos\Bluza_Portocalie.jpg" />
+    <None Include="wwwroot\Photos\Bluza_Roz.jpg" />
+    <None Include="wwwroot\Photos\flori.jpg" />
+    <None Include="wwwroot\Photos\Jeans.jpg" />
+    <None Include="wwwroot\Photos\Rochie_Galbena.jpg" />
+    <None Include="wwwroot\Photos\Rochie_Roz.jpg" />
+    <None Include="wwwroot\Photos\Rochie_Verde.jpg" />
+    <None Include="wwwroot\Photos\Rochie_Visinie.jpg" />
+    <None Include="wwwroot\Photos\Sosete_Banane.jpg" />
+    <None Include="wwwroot\Photos\Sosete_Craciun.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.1" />
@@ -15,6 +105,10 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.1" />
     <PackageReference Include="System.Drawing.Common" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\get-shit-done-master\bootstrap3\" />
   </ItemGroup>
 
 </Project>

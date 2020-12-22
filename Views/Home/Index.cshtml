@@ -1,8 +1,30 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<MagazinImbracaminte.Models.Product>
+
+@{
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<figure class="text-center">
+    <figcaption>
+        @Html.DisplayFor(modelItem => Model.ElementAt(0).Name)
+    </figcaption>
+    <br />
+    <img src="@Model.ElementAt(0).Image" asp-append-version="true" />
+</figure>
+
+
+<figure class="text-center">
+    <figcaption>
+        @Html.DisplayFor(modelItem => Model.ElementAt(1).Name)
+    </figcaption>
+    <br />
+    <img src="@Model.ElementAt(1).Image" asp-append-version="true" />
+</figure>
+
+<figure class="text-center">
+    <figcaption>
+        @Html.DisplayFor(modelItem => Model.ElementAt(2).Name)
+    </figcaption>
+    <br />
+    <img src="@Model.ElementAt(2).Image" asp-append-version="true" />
+</figure>

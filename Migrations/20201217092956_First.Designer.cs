@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MagazinImbracaminte.Migrations
 {
     [DbContext(typeof(MagazinImbracaminteContext))]
-    [Migration("20201211163153_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20201217092956_First")]
+    partial class First
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -83,10 +83,12 @@ namespace MagazinImbracaminte.Migrations
 
             modelBuilder.Entity("MagazinImbracaminte.Models.Product", b =>
                 {
-                    b.Property<string>("ProductId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("ProductId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
 
-                    b.Property<string>("Imagine")
+                    b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("InStock")
@@ -155,7 +157,8 @@ namespace MagazinImbracaminte.Migrations
 
                     b.ToTable("ProductDetailss");
                 });
-
+            modelBuilder.Entity<MagazinImbracaminte.Models.ProductDetails> ().Property(e => e.ProductDetailsId).ValueGeneratedNever();
+            
             modelBuilder.Entity("MagazinImbracaminte.Models.Role", b =>
                 {
                     b.Property<int>("RoleId")
@@ -264,11 +267,13 @@ namespace MagazinImbracaminte.Migrations
                         .WithMany("Products")
                         .HasForeignKey("ProductCartId");
 
-                    b.HasOne("MagazinImbracaminte.Models.ProductDetails", null)
+                    b.HasOne("MagazinImbracaminte.Models.ProductDetails", "ProductDetails")
                         .WithMany("Products")
                         .HasForeignKey("ProductDetailsId");
 
                     b.Navigation("ProductCart");
+
+                    b.Navigation("ProductDetails");
                 });
 
             modelBuilder.Entity("MagazinImbracaminte.Models.Role", b =>

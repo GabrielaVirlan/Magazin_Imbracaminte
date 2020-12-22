@@ -2,7 +2,7 @@
 
 namespace MagazinImbracaminte.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class First : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -49,15 +49,16 @@ namespace MagazinImbracaminte.Migrations
                 name: "Products",
                 columns: table => new
                 {
-                    ProductId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    ProductId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
                     InStock = table.Column<bool>(type: "bit", nullable: false),
                     Price = table.Column<float>(type: "real", nullable: false),
-                    Imagine = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Image = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     QuantityInStock = table.Column<int>(type: "int", nullable: false),
                     Quantities = table.Column<int>(type: "int", nullable: false),
-                    ProductCartId = table.Column<int>(type: "int", nullable: true),
-                    ProductDetailsId = table.Column<int>(type: "int", nullable: true)
+                    ProductDetailsId = table.Column<int>(type: "int", nullable: true),
+                    ProductCartId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
